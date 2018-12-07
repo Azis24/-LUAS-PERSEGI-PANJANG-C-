@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float p,l,luas;
+printf(" Program Menghitung Luas Persegi Panjang\n");
+printf(" \n Panjang = ");
+scanf("%f",&p);
+printf("\n Lebar   = ");
+scanf("%f",&l);
+luas=p*l;
+printf("\n luas    = %.2f\n",luas);
+getch();
+}
